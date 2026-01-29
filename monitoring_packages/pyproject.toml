@@ -1,0 +1,24 @@
+[project]
+name = "monitoring_postprocessing"
+version = "0.1.0"
+description = "Post-processing tool for qubit coherence and frequency monitoring"
+authors = [
+    { name = "Laura Martinez", email = "Laura.Martinez@tii.ae" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.3",
+    "numpy>=2.3",
+    "matplotlib>=3.10",
+    "scipy>=1.16",
+    "openpyxl>=3.1",
+    "xlrd>=2.0"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["monitoring_postprocessing"]
+

@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: monitoring_postprocessing
+Version: 0.1.0
+Summary: Post-processing and histogram analysis for qubit monitoring
+Author-email: Laura Martinez <Laura.Martinez@tii.ae>
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
